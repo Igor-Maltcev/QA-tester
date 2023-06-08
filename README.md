@@ -5,5 +5,5 @@
 ## Навыки и технологии
 ``Case.io`` ``Jira`` ``Sitecko`` ``Miro``
 ``SQL``  ``Postgree``  ``Dbeaver``  
-``Postman``  ``  ``ChromeDevTools``
+``Postman``  ``  ``ChromDevtools``
 ``Swagger``  ``Trello`` 

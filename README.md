@@ -7,3 +7,6 @@
 ``SQL``  ``Postgree``  ``Dbeaver``  
 ``Postman``    ``ChromDevtools``
 ``Swagger``  ``Trello`` 
+## Пректы
+Проект 1: тест веб-приложения для учителей от Skyeng
+Что нужно было сделать:

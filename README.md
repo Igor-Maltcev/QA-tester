@@ -8,9 +8,8 @@
 <div align="center">
   <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" height="300"/>
 </div>
---
 
-:
+
 ### :man_technologist: Обо мне :
 
 Привет! Меня зовут Игорь, я начинающий тестировщик.

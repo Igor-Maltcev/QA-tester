@@ -40,7 +40,7 @@
 
 
 
-[ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project%201/)
+[ссылка на проект](https://igorqa.atlassian.net/l/cp/NATR0mCb/)
 
 
 

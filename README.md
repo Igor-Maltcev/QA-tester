@@ -17,6 +17,10 @@
 
 ---
 
+### :hammer_and_wrench: Навыки и технологии :
+
+---
+
 - :mailbox:Контактная информация: 
 - Email : Maltcev.Igor@bk.ru
 

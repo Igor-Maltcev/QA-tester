@@ -41,6 +41,7 @@
 
 
 [ссылка на проект](https://igorqa.atlassian.net/l/cp/NATR0mCb/)
+логин и пароль - Здесь
 
 
 

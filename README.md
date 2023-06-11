@@ -38,6 +38,8 @@
 3. Првести тестирование
 4. Написать отчет о результатах тестирования
 
+
+
 [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project%201/)
 
 

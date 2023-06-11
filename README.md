@@ -9,9 +9,15 @@
   <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" height="300"/>
 </div>
 
+---
 
 ### :man_technologist: Обо мне :
-
 Привет! Меня зовут Игорь, я начинающий тестировщик.
 В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики.  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+
+---
+
+
+
+
 

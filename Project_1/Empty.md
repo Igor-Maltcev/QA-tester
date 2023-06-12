@@ -12,12 +12,12 @@
  ПОДГОТОВКА [ТЕСТОВОЙ ДОКУМЕНТАЦИИ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A2%D0%B5%D1%81%D1%82%D0%94%D0%BE%D0%BA.PNG/) : 
  - Шаг 1. Составил [функциональный чек-лист](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-export.xls/) для новой функции (личные события) в сервисе Sitechco
  - Шаг 2. Состаил  3 тест-кейса для [smoke-тестирования](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/Smoke.PNG/). Так как этот вид тестирования покажет, а стоит ли вообще проводить дальнейшее тестирование продукта.
-  Ведь если smoke тесты зайфелятся, то дальнейшее тестерование не проводится.
+  Ведь если smoke тесты зайфелятся, то дальнейшее тестирование не проводится.
  - ТЕСТИРОРВАНИЕ :
-  Ну и собственно на этом этапе и началось тестирование. Было проведено smok тестирование,
+  Ну и собственно на этом этапе и началось тестирование. [Было проведено](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%92%D0%B8%D0%B4%D1%8B%D0%A2%D0%B5%D1%81%D1%82.PNG.) smok тестирование,
   Функциональное тестирование по Чек листу. И приемочное тестирование функционала.
-  По результатам test-run были заведены баг репорты в баг трекинговой системе JIRA.Выставлен Приоритет и Серьезность бага.
--ОТЧЕТ О ТЕСТИРОВАНИИ : 
-Этим шагом был подведен итог о тестировани. Все результаты занесены в соответствующие доументы.
-Дан общий отет о готовности продукта к выпуску. Рекомендации.
+  По результатам test-run были заведены [баг репорты](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%91%D0%B0%D0%B3%D0%B8.PNG/) в баг трекинговой системе JIRA.Выставлен Приоритет и Серьезность бага.
+-[ОТЧЕТ О ТЕСТИРОВАНИИ](https://github.com/Igor-Maltcev/QA-tester) : 
+На этом шаге была составлена подробная отчетная документация. Такая как : [сроки проведения работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A1%D1%80%D0%BE%D0%BA%D0%B8_%D1%80%D0%B0%D0%B1%D0%BE%D1%82.PNG/), [команда тестировщиков](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0.PNG/), [метрики](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B8.PNG/) и отчетность.В том числе распределение найденых [дефектов](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D1%8B.PNG/) по атрибуту [Серьезность](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A1%D0%B5%D1%80%D1%8C%D0%B5%D0%B7%D0%BD%D0%BE%D1%81%D1%82%D1%8C.PNG/)
+Дано [общее заключение о готовности продукта к выпуску](https://github.com/Igor-Maltcev/QA-tester/). Рекомендации.
  

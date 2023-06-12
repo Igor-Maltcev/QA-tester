@@ -1,0 +1,516 @@
+{
+	"info": {
+		"_postman_id": "ecd27ed2-d0f7-4f97-915e-471838bd6301",
+		"name": "Курсовая 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26153878"
+	},
+	"item": [
+		{
+			"name": "Получение Расписания с ЛС",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"from\": \"2023-05-01T00:00:00+03:00\",\r\n  \"till\": \"2023-05-08T00:00:00+03:00\",\r\n  \"onlyTypes\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}events",
+					"host": [
+						"{{baseUrl}}events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Созданние ЛС сегодня",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"CreatID\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"var key = \"startAt\"\r",
+							"var value = pm.response.json().data.startAt\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"backgroundColor\": \"#F9EBFF\",\r\n  \"color\": \"#D478F1\",\r\n  \"description\": \"Создание события сегодня\",\r\n  \"title\": \"HW_1\",\r\n  \"startAt\": \"2023-05-01T15:00:00+03:00\",\r\n  \"endAt\": \"2023-05-01T15:30:00+03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}createPersonal",
+					"host": [
+						"{{baseUrl}}createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Созданние ЛС сегодня в то же время",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"CreatID_2\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"var key = \"startAt_2\"\r",
+							"var value = pm.response.json().data.startAt\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"backgroundColor\": \"#F9EBFF\",\r\n  \"color\": \"#D478F1\",\r\n  \"description\": \"Создание события сегодня в тоже время\",\r\n  \"title\": \"HW_2\",\r\n  \"startAt\": \"2023-05-01T15:00:00+03:00\",\r\n  \"endAt\": \"2023-05-01T15:30:00+03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}createPersonal",
+					"host": [
+						"{{baseUrl}}createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование ЛС сегодня(Редактирование описание события)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"backgroundColor\": \"#EBFDF2\",\r\n    \"color\": \"#43B658\",\r\n    \"description\": \"Проверка редактирования\",\r\n    \"title\": \"HW_1\",\r\n    \"startAt\": \"2023-05-01T15:00:00+03:00\",\r\n    \"endAt\": \"2023-05-01T15:30:00+03:00\",\r\n    \"id\": {{CreatID}},\r\n    \"oldStartAt\": \"{{startAt}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}updatePersonal",
+					"host": [
+						"{{baseUrl}}updatePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Созданние ЛС завтра",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var key = \"CreatID_В\"\r",
+							"var value = pm.response.json().data.payload.id\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"var key = \"startAt_В\"\r",
+							"var value = pm.response.json().data.startAt\r",
+							"pm.collectionVariables.set(key, value)\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"backgroundColor\": \"#F9EBFF\",\r\n  \"color\": \"#D478F1\",\r\n  \"description\": \"Создание события завтра\",\r\n  \"title\": \"HW_3\",\r\n  \"startAt\": \"2023-05-02T15:00:00+03:00\",\r\n  \"endAt\": \"2023-05-02T15:30:00+03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}createPersonal",
+					"host": [
+						"{{baseUrl}}createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление ЛС сегодня",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"id\": {{CreatID}},\r\n    \"startAt\": \"{{startAt}}\"\r\n    //\"oldStartAt\": \"{{startAt}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}removePersonal",
+					"host": [
+						"{{baseUrl}}removePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление ЛС сегодня в тоже время",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"id\": {{CreatID_2}},\r\n    \"startAt\": \"{{startAt_2}}\"\r\n    //\"oldStartAt\": \"{{startAt}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}removePersonal",
+					"host": [
+						"{{baseUrl}}removePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление ЛС завтра",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"id\": {{CreatID_В}},\r\n    \"startAt\": \"{{startAt_В}}\"\r\n    //\"oldStartAt\": \"{{startAt}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}removePersonal",
+					"host": [
+						"{{baseUrl}}removePersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Созданние ЛС с пустой датой",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"backgroundColor\": \"#F9EBFF\",\r\n  \"color\": \"#D478F1\",\r\n  \"description\": \"Создание события сегодня\",\r\n  \"title\": \"HW_1\",\r\n  \"startAt\": \"T15:00:00+03:00\",\r\n  \"endAt\": \"T15:30:00+03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}createPersonal",
+					"host": [
+						"{{baseUrl}}createPersonal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Созданние ЛС с екорктной датой. 33.05.2023",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"backgroundColor\": \"#F9EBFF\",\r\n  \"color\": \"#D478F1\",\r\n  \"description\": \"Создание события сегодня\",\r\n  \"title\": \"HW_1\",\r\n  \"startAt\": \"2023-05-33T15:00:00+03:00\",\r\n  \"endAt\": \"2023-05-33T15:30:00+03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}createPersonal",
+					"host": [
+						"{{baseUrl}}createPersonal"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://api-teachers.skyeng.ru/v2/schedule/",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjEwMzM4NzM2LCJpZGVudGl0eSI6InRlc3QtbW9iaWxlMUBza3llbmcucnUiLCJpZGVudGl0eUxvZ2luIjpudWxsLCJpZGVudGl0eUVtYWlsIjoidGVzdC1tb2JpbGUxQHNreWVuZy5ydSIsImlkZW50aXR5UGhvbmUiOiIrMTkwOTkwOTMzMzMiLCJuYW1lIjoiSm9obiIsInN1cm5hbWUiOiJMZW5ub24iLCJlbWFpbCI6InRlc3QtbW9iaWxlMUBza3llbmcucnUiLCJ1aUxhbmd1YWdlIjoicnUiLCJsb2NhbGUiOiJydSIsInNlcnZpY2VMb2NhbGUiOm51bGwsInVhcyI6MzAsImp3dFR5cGUiOjEsImp0aSI6ImJjdnV6dmc4TGprUTQ2ejNmb2FQdEl6QUFWOWtWYUpOIiwiYnJhbmQiOm51bGwsImV4cCI6MTY4MzMwMjk0NCwiYXZhdGFyVXJsIjoiaHR0cHM6XC9cL2F1dGgtYXZhdGFycy1za3llbmcuaW1naXgubmV0XC8xMDMzODczNlwvZTllMDc0YTQtMmM3My00NzhhLWI3YzItMTc4ZGI0ZjUwODY3P2F1dG89Zm9ybWF0JTJDZW5oYW5jZSZmaXQ9Y3JvcCZoPTIwMCZpeGxpYj1waHAtMi4xLjEmcT03NSZzYXQ9OCZzaGFycD0xMCZ2aWI9OCZ3PTIwMCIsImJpcnRoZGF5IjoiMTk0MC0xMC0wOSIsImFJc1N0cm9uZyI6dHJ1ZSwiYVR5cGUiOiJVU0VSTkFNRV9QQVNTV09SRCIsImFUaW1lIjoxNjgzMjE2NTM2LCJyb2xlcyI6WyJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciLCJST0xFX0VTU0FZX0lOU1BFQ1RPUl9URUFDSEVSIl19.zDj61RNMuFsE0pbMTGQKi-wa8J94jCjKfu9DIQgdwG2uVGZ-c8x_9m1pKouAxhzKckz18HK9LjKQavyiUzW3Gvvlkj1JsQQgFlYpro3bHub6StvPgobpZWHRAZTAESTvepUelBGPLjtSm2oh68bEMtbExg9u777qieuv6-WPeXMjhX5n8CNEd2q28PBbgsB2U43lAohafcyRm_YJ955kBdxKvc-wv78rQ_xzKg-rls51kKOKzQcAqKmxwclqckWWuhdoqVKfg2oCKlpy9BWuA9qpbpJdLM3_Sn1x04vuviPguDwgH14ccHdE2bfudR3zj4LrqkHbPGgNH-moVKUUmM6Q0y4K7IsIlXsI_LIWpDl2UWVVXKtVo-8UX3Hn5Fx9YkXObstvGWH6uhI_17wdS9rNrqKbJx-cKVeWDbwxRd0Nd18vfMcVLgI46_1T-GW1TxASuHvhs-URGsRjYZ_MOz39eakoFMnHhWmBdbwRp1wDBTVpVp5KUq-3C8zgHjVUA0pw7fV0FurWSss9-O9yRBHAxqzUUBRiprROFI1h5UKEIa4hfYLZrePDM6vNyZvEO1AbJ7bZzmApb_GX2TZjVlGO7KXdZIN8_3bo_-r_CqZKduHHbxbHQH0qIebXztRtg3a0bROPs-xBkJTCBc13TpzKr4mJQ-KymQLRdp5D6sU; session_teachers_cabinet=k7hubsa7kumi1p58ftera8pqar; _ga_SR964WVJCV=GS1.1.1683215848.2.1.1683217573.0.0.0",
+			"type": "string"
+		},
+		{
+			"key": "CreatID",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "startAt",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "CreatID_В",
+			"value": ""
+		},
+		{
+			"key": "startAt_В",
+			"value": ""
+		},
+		{
+			"key": "CreatID_2",
+			"value": ""
+		},
+		{
+			"key": "startAt_2",
+			"value": ""
+		}
+	]
+}

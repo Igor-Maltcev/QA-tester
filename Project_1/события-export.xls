@@ -1,0 +1,577 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fQ8Ne63mCe6PAEJhPdwDDDPWduhvG8dk1LjZ4Ky0_m8zgfY6QBiqBUO8VSecItIemPA0cPm4T_MNv-IS1dfDrDMihLlkFsrJrJ5JhFHN_idP5QmdXlB-OSnW2RuDlxIU" charset="UTF-8"></script></head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Личные события (LS)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: Низкоуровневый Функциональный Чек лист для добавления личного события</td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Отображение личых событий в Рассписании</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Кликнуть на вкладку Рассписание с главной страицы сайта</td>
+                <td>Вкладка " Рассписание открылась"</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Добавление личных событий</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Вариант 1 : Кликнуть в слот<br />
+Вариант 2 : Нажать на "+"</td>
+                <td>Открылась форма "Расписание на день"</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Названия события</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Кирилица и латиница смешанный регистр:<br />
+ВасилийWork</td>
+                <td>Поле успешно приняло данные</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>Буквы и цифры<br />
+Занятие7</td>
+                <td>Поле успешно приняло данные</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Допустимые спец символы (после уточнения у заказчика)<br />
+точки,запятые, пробел,дефис,восклицательный знак <br />
+!долг.Ира-2, Макс тест</td>
+                <td>Поле успешно приняло данные</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Поле принимает до 40 символов:<br />
+Сорок символов поле принимает легкоточно</td>
+                <td>Поле успешно приняло данные</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Названия события</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Негативные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Пустое поле</td>
+                <td>Сообщение "Заполните Название"</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>Больше 40 символов:<br />
+Больше сорока символов поле принимать не должно:<br />
+Вводим для проверки больше сорока символов в поле</td>
+                <td>Поле не принимает данные</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Недопустимые спец символы (любые кроме допустимых) <br />
+*+=символы%№"@конец</td>
+                <td>Поле не принимает данные</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Символы Юникода<br />
+✍<br />
+™❆♣✦</td>
+                <td>Поле не принимает данные</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Даты</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Средний        </td>
+        <td>Событие на прошлый год</td>
+                <td>Дата выбрана</td>
+                    </tr>
+        <tr>
+        <td>
+            12        </td>
+        <td>
+            Средний        </td>
+        <td>Событие в прошлом месяце</td>
+                <td>Дата выбрана</td>
+                    </tr>
+        <tr>
+        <td>
+            13        </td>
+        <td>
+            Средний        </td>
+        <td>Событие вчера</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            14        </td>
+        <td>
+            Средний        </td>
+        <td>Событие сегодня, но время уже прошло</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            15        </td>
+        <td>
+            Средний        </td>
+        <td>Событие прям сейчас (например, если сейчас 15:15, то событие поставить с 15:10 до 15:30)</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            16        </td>
+        <td>
+            Средний        </td>
+        <td>Событие сегодня, но время еще будет</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            17        </td>
+        <td>
+            Средний        </td>
+        <td>Событие завтра</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            18        </td>
+        <td>
+            Средний        </td>
+        <td>Событие в следующем месяце</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            19        </td>
+        <td>
+            Средний        </td>
+        <td>Событие в следующем году</td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Даты</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Негативные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            20        </td>
+        <td>
+            Средний        </td>
+        <td>обытие с некорректной датой<br />
+31 февраля 2024</td>
+                <td>Сообщение об ошибке</td>
+                    </tr>
+        <tr>
+        <td>
+            21        </td>
+        <td>
+            Средний        </td>
+        <td>Событие в тоже время, когда уже есть личное событие</td>
+                <td>Сообщение об ошибке</td>
+                    </tr>
+        <tr>
+        <td>
+            22        </td>
+        <td>
+            Средний        </td>
+        <td>Событие с неустановленной датой</td>
+                <td>Сообщение об ошибке</td>
+                    </tr>
+        <tr>
+        <td>
+            23        </td>
+        <td>
+            Средний        </td>
+        <td>В выпадающем списке задать  не существующий временной интервал<br />
+25:30-26:00</td>
+                <td>Сообщение об ошибке</td>
+                    </tr>
+        <tr>
+        <td>
+            24        </td>
+        <td>
+            Средний        </td>
+        <td>Начало события позже его завершения<br />
+12:00 - 11:30</td>
+                <td>Сообщение об ошибке</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Описание</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            25        </td>
+        <td>
+            Средний        </td>
+        <td>Пустое поле</td>
+                <td>Созданное событие сохранено</td>
+                    </tr>
+        <tr>
+        <td>
+            26        </td>
+        <td>
+            Средний        </td>
+        <td>Нет ограничения на символы:<br />
+Проверка@+% и даже так ♣✦<br />
+рыба текст 557 символов https://fish-text.ru/</td>
+                <td>Поле успешно принимает данные</td>
+                    </tr>
+        <tr>
+        <td>
+            27        </td>
+        <td>
+            Средний        </td>
+        <td>Добавление ссылки<br />
+https://skyengpublic.notion.site/6746e543d02c43879de0057cafe196b0</td>
+                <td>Ссылка добавлена</td>
+                    </tr>
+        <tr>
+        <td>
+            28        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить Маркдаун</td>
+                <td>Маркдаун добавлен</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверка Цвет события</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Позитивные проверки</td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            29        </td>
+        <td>
+            Средний        </td>
+        <td>Не выбран цвет события</td>
+                <td>Сохранился цвет по умолчанию "Серый"</td>
+                    </tr>
+        <tr>
+        <td>
+            30        </td>
+        <td>
+            Средний        </td>
+        <td>Выбран зеленый цвет</td>
+                <td>Сохранился зеленый цвет события</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Удаление личного события</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            31        </td>
+        <td>
+            Средний        </td>
+        <td>Удаление события из прошлого</td>
+                <td>Личное событие удалено</td>
+                    </tr>
+        <tr>
+        <td>
+            32        </td>
+        <td>
+            Средний        </td>
+        <td>Удаление события из будущего</td>
+                <td>Личное событие удалено</td>
+                    </tr>
+        <tr>
+        <td>
+            33        </td>
+        <td>
+            Средний        </td>
+        <td>Удаление события из настоящего</td>
+                <td>Личное событие удалено</td>
+                    </tr>
+        <tr>
+        <td>
+            34        </td>
+        <td>
+            Средний        </td>
+        <td>Удаление несуществующего события (например, дважды отправить запрос на удаление события, первый запрос событие удалит, а второй уже будет удалять несуществующее событие)</td>
+                <td>Сообщение, что События не существует</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Редактирование Личного события</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            35        </td>
+        <td>
+            Средний        </td>
+        <td>Нажать на Кнопку "Редактировать"</td>
+                <td>Открылась форма "Редактировать Личное событие"</td>
+                    </tr>
+        <tr>
+        <td>
+            36        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить название<br />
+Проверка текста</td>
+                <td>Название изменилось на введенное</td>
+                    </tr>
+        <tr>
+        <td>
+            37        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить время <br />
+12:30 - 14:00</td>
+                <td>Время изменилось на введенное</td>
+                    </tr>
+        <tr>
+        <td>
+            38        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить или ввести описание<br />
+Проверка нового текста описания</td>
+                <td>Описание изменилось на введенное</td>
+                    </tr>
+        <tr>
+        <td>
+            39        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить Цвет события<br />
+выбрать фиолетовый цвет</td>
+                <td>Цвет изменился на выбранный</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Совмещение личного события и урока</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            40        </td>
+        <td>
+            Средний        </td>
+        <td>Если событие и урок совпадают по времени, урок отображается всегда выше всего.</td>
+                <td>Урок отображается выше события</td>
+                    </tr>
+        <tr>
+        <td>
+            41        </td>
+        <td>
+            Средний        </td>
+        <td>Если два события происходят в одно время, отображается выше то, которое было создано последним.</td>
+                <td>Последнее событие отображается выше</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->

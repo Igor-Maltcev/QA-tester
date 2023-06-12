@@ -53,8 +53,8 @@
 3. Провести test run
 4. На основе результатов тест-рана дополнить отчет о тестировании.
 - [ссылка на проект](https://igorqa.atlassian.net/l/cp/NATR0mCb/) 
-- [логин и пароль](https://github.com/Igor-Maltcev/QA-
-- [краткое описание выполненых работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
+- [логин и пароль](https://github.com/Igor-Maltcev/QA-/)
+- [краткое описание выполненых работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
 ---
 
 - :mailbox:Контактная информация: 

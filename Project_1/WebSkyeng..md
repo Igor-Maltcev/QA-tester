@@ -11,7 +11,7 @@
 
 ---
 - ##### ПОДГОТОВКА [ТЕСТОВОЙ ДОКУМЕНТАЦИИ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A2%D0%B5%D1%81%D1%82%D0%94%D0%BE%D0%BA.PNG/) : 
- - Шаг 1. Составил [функциональный чек-лист](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-export.rars) для новой функции (личные события) в сервисе Sitechco
+ - Шаг 1. Составил [функциональный чек-лист](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-export.rar) для новой функции (личные события) в сервисе Sitechco
  - Шаг 2. Состаил  3 тест-кейса для [smoke-тестирования](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/Smoke.PNG/). Так как этот вид тестирования покажет, а стоит ли вообще проводить дальнейшее тестирование продукта.
   Ведь если smoke тесты зайфелятся, то дальнейшее тестирование не проводится.
   

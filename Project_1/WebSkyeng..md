@@ -26,5 +26,5 @@
   
 - ##### [ОТЧЕТ О ТЕСТИРОВАНИИ](https://github.com/Igor-Maltcev/QA-tester) :
 На этом шаге была составлена подробная отчетная документация. Такая как : [сроки проведения работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A1%D1%80%D0%BE%D0%BA%D0%B8_%D1%80%D0%B0%D0%B1%D0%BE%D1%82.PNG/), [команда тестировщиков](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0.PNG/), [метрики](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B8.PNG/) и отчетность.В том числе распределение найденых [дефектов](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%B4%D0%B5%D1%84%D0%B5%D0%BA%D1%82%D1%8B.PNG/) по атрибуту [Серьезность](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A1%D0%B5%D1%80%D1%8C%D0%B5%D0%B7%D0%BD%D0%BE%D1%81%D1%82%D1%8C.PNG/).
- Дано [общее заключение о готовности продукта к выпуску](https://github.com/Igor-Maltcev/QA-tester/). Рекомендации.
+ Дано [общее заключение о готовности продукта к релизу. Рекомендации](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%98%D1%82%D0%BE%D0%B3.PNG)
  

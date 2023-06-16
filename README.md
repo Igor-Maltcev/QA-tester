@@ -6,7 +6,7 @@
 <div id="header" align="center">
 </div>
 
-<div id="header" align="center">
+<div id="header" align="left">
  :man_technologist: Обо мне :
 Меня зовут Игорь, я начинающий тестировщик.
 В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики.  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">

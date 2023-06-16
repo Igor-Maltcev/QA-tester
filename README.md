@@ -41,6 +41,7 @@
 <div>
 Как выполнял :
 </div>
+
 - [краткое описание выполненых работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
 
 ---

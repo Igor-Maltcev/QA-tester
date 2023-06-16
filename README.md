@@ -13,8 +13,8 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </div>
   Меня зовут Игорь, я начинающий тестировщик.
-  <div
-В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+
+В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики.  <div <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
   </div>
 
 ### :hammer_and_wrench: Навыки и технологии :

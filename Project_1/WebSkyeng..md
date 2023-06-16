@@ -20,7 +20,7 @@
  - ##### ТЕСТИРОРВАНИЕ :
   Ну и собственно на этом этапе и началось тестирование. [Было проведено](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/smok_cheklist.PNG/) smok тестирование,
   Функциональное тестирование по Чек листу. И приемочное тестирование функционала.
-  По результатам test-run были заведены [баг репорты](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%91%D0%B0%D0%B3%D0%B8.PNG/) в баг трекинговой системе JIRA.Составлена диаграмма : Распределение дефектов по атрибуту [Серьезность](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%A1%D0%B5%D1%80%D1%8C%D0%B5%D0%B7%D0%BD%D0%BE%D1%81%D1%82%D1%8C.PNG/).
+  По результатам test-run были заведены [баг репорты](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/%D0%91%D0%B0%D0%B3%D0%B8.PNG/) в баг трекинговой системе JIRA.
   
   ---
   

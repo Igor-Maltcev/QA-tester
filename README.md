@@ -9,7 +9,7 @@
 
 <div id="header" align="left">
  :man_technologist: 
-  https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTR1bjB6dTd0d2R4dmRjNm13dnp6cDBwdjVxem5paHF1NTNienNuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif
+  [Привет](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTR1bjB6dTd0d2R4dmRjNm13dnp6cDBwdjVxem5paHF1NTNienNuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJCLFzcasrR4ia7z/giphy.gif)
 Меня зовут Игорь, я начинающий тестировщик.
 В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики.  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 <div id="header" align="center">

@@ -11,7 +11,11 @@
 ---
 
 ### :man_technologist: Обо мне :
-Привет! Меня зовут Игорь, я начинающий тестировщик.
+<h1>
+ привет
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+Меня зовут Игорь, я начинающий тестировщик.
 В этом репозитории вы можете найти некоторые из моих проектов, выполненных во время обучения и практики.  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
 ---

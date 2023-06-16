@@ -3,11 +3,13 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="100"/>
 </div>
-
+<div id="header" align="center">
 <h1>
  привет
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
+</div>
+
 
 ### :man_technologist: Обо мне :
 Меня зовут Игорь, я начинающий тестировщик.

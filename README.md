@@ -6,7 +6,7 @@
 
 
 ### Обо мне :
-
+[Привет](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTR1bjB6dTd0d2R4dmRjNm13dnp6cDBwdjVxem5paHF1NTNienNuOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hvRJC
 <div id="header" align="left">
  :man_technologist: 
   (LFzcasrR4ia7z/giphy.gif)

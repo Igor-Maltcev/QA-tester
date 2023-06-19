@@ -34,7 +34,7 @@
 3. Провести тестирование
 4. Написать отчет о результатах тестирования
 
-- [краткое описание выполненых работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
+- [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
 
 ---
 
@@ -44,7 +44,7 @@
 2. Создать коллекцию в Postman
 3. Провести test run
 4. На основе результатов тест-рана дополнить отчет о тестировании.
-- [краткое описание выполненых работ](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
+- [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
 ---
 
 - :mailbox:Контактная информация: 

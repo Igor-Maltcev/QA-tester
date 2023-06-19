@@ -47,6 +47,7 @@
 - [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
 ---
  ##### Проект 3:  Postman. Умная заглушка Mockoon
+ ---
  
 - :mailbox:Контактная информация: 
 - Email : Maltcev.Igor@bk.ru

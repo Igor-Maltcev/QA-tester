@@ -4,3 +4,4 @@
 -  добавить задачу [Add Task](https://drive.google.com/file/d/1kRywm6E3fvbyOEawaamZKA4c7k2Dr8sd/view?usp=sharing/)
 -  получить список задач [List_Tasks](https://drive.google.com/file/d/1PZs2ynWfmurioMYHNMB5-d7nBKEo03sq/view?usp=sharing)
 -   проверить через [UI](https://drive.google.com/file/d/1pbYEELYvV2f_0ZvUl_ACWXxfhpFyRKGf/view?usp=sharing/)
+-   удалить задачу

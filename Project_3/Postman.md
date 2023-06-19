@@ -5,4 +5,5 @@
 -  получить список задач [List_Tasks](https://drive.google.com/file/d/1PZs2ynWfmurioMYHNMB5-d7nBKEo03sq/view?usp=sharing)
 -   проверить через [UI](https://drive.google.com/file/d/1pbYEELYvV2f_0ZvUl_ACWXxfhpFyRKGf/view?usp=sharing/)
 -   удалить задачу [Delete_Task](https://drive.google.com/file/d/1z0wcCS7JhY_ty9a1k3Vfq8Oy5qcgeqhy/view?usp=sharing/)
+-   получить список задач [List_Tasks](https://drive.google.com/file/d/1lGioLdKbrco8QxdeMxkANBLGQqoFoM9u/view?usp=sharing/)
 -   проверить через [UI](https://drive.google.com/file/d/1waSjJTIVJmFTZYKdcUWvZvZSbpAV6HWt/view?usp=sharing/)

@@ -8,7 +8,7 @@
   ---
   Документация проекта :
    - Приемочный [тест - кейс](https://docs.google.com/spreadsheets/d/13p9S8zqcwzTZ3-FcWgr12GGeLUkLYaFfKDshi44NFpA/edit?usp=sharing )
-  #### Postman
+  #### Postman collection :
 -  получить список задач   [List Tasks](https://drive.google.com/file/d/1UVqBw3BOxsfevs2iUJDIxu2Tglv6ZMRW/view?usp=sharing/)
 -  добавить задачу [Add Task](https://drive.google.com/file/d/1kRywm6E3fvbyOEawaamZKA4c7k2Dr8sd/view?usp=sharing/)
 -  получить список задач [List_Tasks](https://drive.google.com/file/d/1PZs2ynWfmurioMYHNMB5-d7nBKEo03sq/view?usp=sharing)

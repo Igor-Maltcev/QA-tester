@@ -4,9 +4,11 @@
 3. Создайть заглушку для двух операций Todo-приложения:
    - На получение списка  задач должен возвращаться массив из 3 и более задач.
    - На создание задачи  должен возвращаться UUID новой задачи: в тело ответа нужно вписать "id": "{{faker 'datatype.uuid'}}” — эта строка сообщит Mockoon, что нужно  использовать генератор данных (datatype) и подставить рандомный UUID.
-  
-1.  Приемочный [тест - кейс](https://docs.google.com/spreadsheets/d/13p9S8zqcwzTZ3-FcWgr12GGeLUkLYaFfKDshi44NFpA/edit?usp=sharing )
-2. #### Postman
+
+  ---
+  Документация проекта :
+  Приемочный [тест - кейс](https://docs.google.com/spreadsheets/d/13p9S8zqcwzTZ3-FcWgr12GGeLUkLYaFfKDshi44NFpA/edit?usp=sharing )
+  #### Postman
 -  получить список задач   [List Tasks](https://drive.google.com/file/d/1UVqBw3BOxsfevs2iUJDIxu2Tglv6ZMRW/view?usp=sharing/)
 -  добавить задачу [Add Task](https://drive.google.com/file/d/1kRywm6E3fvbyOEawaamZKA4c7k2Dr8sd/view?usp=sharing/)
 -  получить список задач [List_Tasks](https://drive.google.com/file/d/1PZs2ynWfmurioMYHNMB5-d7nBKEo03sq/view?usp=sharing)

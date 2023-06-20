@@ -19,5 +19,5 @@
 
 #### Mockoon заглушки : 
 - получение списка задач [Mockoon](https://drive.google.com/file/d/1DvyYkGWRMyv0vId7Qc-3y23PwgwrN_R1/view?usp=sharing/)
-  - запрос в Postman [List](https://github.com/Igor-Maltcev/QA-tester/assets/135959728/c41f2110-09d4-4976-9e45-8d228a44971d)
-/)
+  - запрос в Postman [List](https://github.com/Igor-Maltcev/QA-tester/assets/135959728/c41f2110-09d4-4976-9e45-8d228a44971d/)
+

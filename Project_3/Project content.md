@@ -18,4 +18,4 @@
 -   проверить через [UI](https://drive.google.com/file/d/10CLnNKQVXeA2Ogv4Zn0lx_4KNl6hrHI4/view?usp=sharing/)
 
 #### Mockoon заглушки : 
-- получение списка задач [Mockoon](https://drive.google.com/file/d/1-nkdCxssEP2PpN0yyS-AktQ4nme7RP6j/view?usp=sharing)
+- получение списка задач [Mockoon](https://drive.google.com/file/d/1DvyYkGWRMyv0vId7Qc-3y23PwgwrN_R1/view?usp=sharing/)

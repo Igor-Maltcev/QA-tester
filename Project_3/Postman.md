@@ -1,3 +1,10 @@
+ Задачи проекта : 
+1. Составить приемочный тест - кейс для продукта [ToDo List](https://sky-todo-list.herokuapp.com/)
+2. Составить коллекцию в Postman для приемочного ТК
+3. Создайте заглушку для двух операций Todo-приложения:
+   - На получение списка  задач должен возвращаться массив из 3 и более задач.
+   - На создание задачи  должен возвращаться UUID новой задачи: в тело ответа нужно вписать "id": "{{faker 'datatype.uuid'}}” — эта строка сообщит Mockoon, что нужно  использовать генератор данных (datatype) и подставить рандомный UUID.
+  
 1.  Приемочный [тест - кейс](https://docs.google.com/spreadsheets/d/13p9S8zqcwzTZ3-FcWgr12GGeLUkLYaFfKDshi44NFpA/edit?usp=sharing )
 2. #### Postman
 -  получить список задач   [List Tasks](https://drive.google.com/file/d/1UVqBw3BOxsfevs2iUJDIxu2Tglv6ZMRW/view?usp=sharing/)

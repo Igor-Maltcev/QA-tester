@@ -19,3 +19,4 @@
 
 #### Mockoon заглушки : 
 - получение списка задач [Mockoon](https://drive.google.com/file/d/1DvyYkGWRMyv0vId7Qc-3y23PwgwrN_R1/view?usp=sharing/)
+  - запрос в Postman [Posman_Mock](https://drive.google.com/file/d/1MxpKrN3sqdq59z6d5NABq9-b0QTfMWHl/view?usp=sharing/)

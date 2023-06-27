@@ -21,6 +21,6 @@
 
 #### Mockoon заглушки : 
 - получение списка задач [List_Moc](https://drive.google.com/file/d/10bHfp29bhJ27_xhcFxO27BTBN8rIoYRi/view?usp=sharing/)
-  - запрос в Postman [List](https://drive.google.com/file/d/1jCbvSNXQxTdjo34_9l61FVvzK4wEQvnM/view?usp=sharing/)
+  - запрос в Postman [List_Mock](https://drive.google.com/file/d/13DLbyDxmVo020qoCtJsoob007qzTiUqI/view?usp=sharing/)
   - создание правила
 

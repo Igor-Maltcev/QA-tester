@@ -20,7 +20,7 @@
 -   проверить через [UI](https://drive.google.com/file/d/10CLnNKQVXeA2Ogv4Zn0lx_4KNl6hrHI4/view?usp=sharing/)
 
 #### Mockoon заглушки : 
-- получение списка задач [List_Moc](https://drive.google.com/file/d/1unt-nPtB7QB63r3Odu83kr3sXKAiaYoH/view?usp=sharing/)
+- получение списка задач [List_Moc](https://drive.google.com/file/d/10bHfp29bhJ27_xhcFxO27BTBN8rIoYRi/view?usp=sharing/)
   - запрос в Postman [List](https://drive.google.com/file/d/1jCbvSNXQxTdjo34_9l61FVvzK4wEQvnM/view?usp=sharing/)
   - создание правила
 

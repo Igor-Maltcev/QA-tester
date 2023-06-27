@@ -13,7 +13,7 @@
   #### Postman collection :
 -  получить список задач   [List Tasks](https://drive.google.com/file/d/1I4ueDJA-Bxw7LRVYtp7tzsSSq6eeACMQ/view?usp=sharing/)
 -  добавить задачу [Add Task](https://drive.google.com/file/d/13wl8FVoITrZ9T45Uu-FGtiIPCSuTdV8S/view?usp=sharing/)
--  получить список задач [List_Tasks](https://drive.google.com/file/d/1PZs2ynWfmurioMYHNMB5-d7nBKEo03sq/view?usp=sharing)
+-  получить список задач [List_Tasks](https://drive.google.com/file/d/1K6gbeGpgRtn3VYOjGyiyqJf_38Piinek/view?usp=sharing/)
 -   проверить через [UI](https://drive.google.com/file/d/1pbYEELYvV2f_0ZvUl_ACWXxfhpFyRKGf/view?usp=sharing/)
 -   удалить задачу [Delete_Task](https://drive.google.com/file/d/1z0wcCS7JhY_ty9a1k3Vfq8Oy5qcgeqhy/view?usp=sharing/)
 -   получить список задач [List_Tasks](https://drive.google.com/file/d/1lGioLdKbrco8QxdeMxkANBLGQqoFoM9u/view?usp=sharing/)

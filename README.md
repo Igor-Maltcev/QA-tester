@@ -58,6 +58,17 @@
 
  ---
  
+##### Проект :  Дипломная работа
+
+Что нужно было сделать :
+1. Сделать тест план
+2. Подготовить тестовую документаццию
+3. Провести тестирование
+4. Написать отчет о результатах тестирования
+
+- [ссылка на проект](https://www.notion.so/3faab76d1c704f4a99bacf1d9ce7aed4?pvs=4/)
+---
+ 
 - :mailbox:Контактная информация: 
 - Email : Maltcev.Igor@bk.ru
 - [<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="30">](https://t.me/MaltcevIgor/)

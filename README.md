@@ -14,7 +14,8 @@
 
 ### :hammer_and_wrench: Навыки и технологии :
  ``Qase.io``  ``Sitechko``   ``Miro``  ``Postman``  ``Swagger``  ``Mockoon``  ``SoapUI`` 
- ``Jira`` ``Trello``  ``PostgreeSQL``  ``DBeaver``  ``Dev tools``
+ ``Jira`` ``Trello``  ``PostgreeSQL``  ``DBeaver``  ``Dev tools`` ``Charles````Android Studio`` 
+ ``Android Debag Bridge``
 
 ---
 

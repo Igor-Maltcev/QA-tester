@@ -34,7 +34,7 @@
 3. Провести тестирование
 4. Написать отчет о результатах тестирования
 
-> [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
+> [Ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_1/WebSkyeng..md/)
 
 ---
 
@@ -44,7 +44,7 @@
 2. Создать коллекцию в Postman
 3. Провести test run
 4. На основе результатов тест-рана дополнить отчет о тестировании.
-> [ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
+> [Ссылка на проект](https://github.com/Igor-Maltcev/QA-tester/blob/main/Project_2/CabinetSkyeng.md/)
 ---
  ##### Проект 3:  Postman. Умная заглушка Mockoon
  Что нужно было сделать
@@ -64,7 +64,7 @@
 1. Провести функциональное тестирование веб приложения для изучения английского языка для учителей от Skyeng.
 2. Протестировать фукционал мобильного приложения ученика, и его взаимодествие с веб приложением учителя. Проверяется только основной сценарий использования раздела “Видеопрактика.”
 3.  Проверить работу API веб приложения учителей с помощью Postman.
-> [ссылка на проект](https://www.notion.so/3faab76d1c704f4a99bacf1d9ce7aed4?pvs=4/)
+> [Ссылка на проект](https://www.notion.so/3faab76d1c704f4a99bacf1d9ce7aed4?pvs=4/)
 ---
  
 - :mailbox:Контактная информация: 

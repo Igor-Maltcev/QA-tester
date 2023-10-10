@@ -16,7 +16,7 @@
 -  получить список задач [List_Tasks](https://drive.google.com/file/d/1K6gbeGpgRtn3VYOjGyiyqJf_38Piinek/view?usp=sharing/)
 -   проверить через [UI](https://drive.google.com/file/d/1s_Bzwl_wQGkfK-JMbe3jvoU8G7F1m0wf/view?usp=sharing/)
 -   удалить задачу [Delete_Task](https://drive.google.com/file/d/1t4ollpOHFrIsZz3jhlQkoIyPpMVmFxTk/view?usp=sharing)
--   получить список задач [List_Tasks](![image](https://drive.google.com/file/d/1C2C3n8FeAJzRFQrYII1mdng_nADWjCzf/view?usp=sharing)
+-   получить список задач [List_Tasks](https://drive.google.com/file/d/1C2C3n8FeAJzRFQrYII1mdng_nADWjCzf/view?usp=sharing)
 )
 -   проверить через [UI](https://drive.google.com/file/d/10CLnNKQVXeA2Ogv4Zn0lx_4KNl6hrHI4/view?usp=sharing/)
 

@@ -18,7 +18,7 @@
 -   удалить задачу [Delete_Task](https://drive.google.com/file/d/1t4ollpOHFrIsZz3jhlQkoIyPpMVmFxTk/view?usp=sharing)
 -   получить список задач [List_Tasks](https://drive.google.com/file/d/1C2C3n8FeAJzRFQrYII1mdng_nADWjCzf/view?usp=sharing)
 )
--   проверить через [UI](https://drive.google.com/file/d/10CLnNKQVXeA2Ogv4Zn0lx_4KNl6hrHI4/view?usp=sharing/)
+-   проверить через [UI](https://drive.google.com/file/d/1gHo4k-qwFdtEpmo06KswIVHLX_tJP577/view?usp=sharing)
 
 #### Mockoon заглушки : 
 - получение списка задач [List_Moc](https://drive.google.com/file/d/10bHfp29bhJ27_xhcFxO27BTBN8rIoYRi/view?usp=sharing/)

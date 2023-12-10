@@ -11,7 +11,7 @@
 Привет
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>    Меня зовут Игорь, я начинающий тестировщик. <br> В этом репозитории вы можете найти некоторые из моих проектов, выполненных мною во время моего обучения. А так же дополнительные работы для закрепления практических навыков.   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
-### :hammer_and_wrench: Навыки и технологии :
+###  Навыки и технологии :
  ``Qase.io``  ``Sitechko``   ``Miro``  ``Postman``  ``Swagger``  ``Mockoon``  ``SoapUI`` 
  ``Jira`` ``Trello``  ``PostgreeSQL``  ``DBeaver``  ``Dev tools`` ``Charles``  
  ``WDSL``  ``Android Debag Bridge`` ``Android Studio`` ``IntelliJ IDEA`` ``VScode`` ``GitBash``
